@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+:root {
+  --btn-color: #e02c6d;
+  --txt-color: #3a3a3a;
+}
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100%;
+}
+nav {
+  padding: 0 100px;
+  margin: 0 auto;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 10px;
+}
+.nav-logo h3 {
+  color: var(--txt-color);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.menus {
+  display: flex;
+}
+.menus ul {
+  display: flex;
+}
+.menus > ul li {
+  list-style: none;
+  margin-right: 34px;
+  color: var(--txt-color);
+}
+.search {
+  margin-right: 34px;
+}
+.banner-container {
+  display: flex;
+  align-items: center;
+  padding: 0 100px;
+  
+}
+.banner-title {
+  color: var(--txt-color);
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 70px;
+}
+.banner-description {
+  color: var(--txt-color);
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 16px 0;
+}
+.banner-btn{
+    font-size: 1rem;
+  font-weight: 700;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 41px;
+  background-color: var(--btn-color);
+  color: #FFF;
+}
+.banner-photo {
+  position: relative;
+}
+.main-camera-bg {
+  position: absolute;
+  top: -40px;
+  z-index: -1;
+}

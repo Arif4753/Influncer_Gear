@@ -1,0 +1,45 @@
+@media screen and (max-width: 576px) {
+  nav {
+    padding: 0px;
+  }
+  .nav-container {
+    flex-direction: column;
+    padding: 30px 0px;
+  }
+  .nav-logo h3 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .menus {
+    margin-right: 20px;
+    justify-content: center;
+  }
+  .banner-photo img{
+    width: 237px;
+    height: 237px;
+    padding: 81px 50px 14px;
+  }
+  .main-camera-bg {
+top: 12px;
+  }
+  .banner-container{
+    flex-direction: column-reverse;
+    padding: 30px 52px;
+  }
+  .banner-title{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .banner-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .banner-description{
+    text-align: center;
+    font-size: 14px;
+  }
+  .banner-btn{
+    width: 50%;
+    margin: 0 auto;
+  }
+}
